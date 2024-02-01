@@ -1,0 +1,156 @@
+.sdgs622 {
+  width: 100%;
+}
+
+.sdgs622__food {
+  filter: invert(1);
+  padding: 20px 0 0 0;
+}
+
+.sdgs622__main {
+  position: absolute;
+  top: 0;
+  background: none;
+  padding: 20px 0 0 0;
+}
+
+.sdgs622__container {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1280px;
+}
+
+
+.sdgs622__nav_link {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sdgs622__nav_link:hover {
+  color: rgb(220, 220, 220);
+  cursor: pointer;
+}
+
+.sdgs622__nav {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  max-width: 1440px;
+  padding: 0;
+}
+
+.sdgs622__logo {
+  width: 200px;
+  background-image: url('../im4ges/icon.png');
+  background-repeat: no-repeat;
+  background-size: 200px;
+  height: 100px;
+  background-position: center;
+  display: block;
+}
+
+.sdgs622__logo:hover {
+  opacity: .9;
+}
+
+.sdgs622__link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.sdgs622__link:hover {
+  color: rgb(173, 173, 173);
+}
+
+
+@media screen and (max-width: 767px) {
+  .sdgs622__container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .sdgs622__link {
+    color: black;
+  }
+
+  .sdgs622 {
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+    position: static;
+  }
+
+  .sdgs622__food {
+    filter: none;
+  }
+
+  .sdgs622__nav_link {
+    padding: 0;
+    border-right: none;
+  }
+
+  .sdgs622__nav {
+    margin-left: 0;
+    padding: 0;
+    max-width: 320px;
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .sdgs622__logo {
+    width: 250px;
+    height: 140px;
+    background-size: 250px;
+    margin: 0 auto;
+    filter: invert(1);
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .sdgs622__container {
+    width: 90%;
+  }
+
+  .sdgs622__main {
+    padding: 0;
+  }
+
+  .sdgs622__link {
+    font-size: 17px;
+  }
+
+  .sdgs622__food {
+    filter: invert(1);
+  }
+
+  .sdgs622__nav_link {
+    padding: 0;
+    border-right: none;
+  }
+
+  .sdgs622__nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sdgs622__logo {
+    width: 150px;
+    height: 75px;
+    background-size: 150px;
+  }
+}

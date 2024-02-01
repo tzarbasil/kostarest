@@ -1,0 +1,239 @@
+.ln326 {
+    padding: 50px 0;
+    background-color: #ff4400;
+}
+
+.ln326_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: white;
+    gap: 50px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.nvcmewy23__fieldset {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ln326_title {
+    font-size: 25px;
+    margin: 50px 0 0 0;
+    font-weight: 400;
+    width: 90%;
+    text-align: center;
+}
+
+.nvcmewy23__field {
+    width: 100%;
+}
+
+.nvcmewy23__input {
+    width: 100%;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    min-height: 50px;
+    outline: none;
+    border: 1px solid #ff4400;
+    font-weight: 100;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px 0 20px 10px;
+}
+
+
+.nvcmewy23__input::placeholder {
+    color: #000000;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+
+.nvcmewy23__submit {
+    background-color: #ff4400;
+    color: white;
+    padding: 20px 0;
+    font-weight: 500;
+    border: none;
+    font-size: 30px;
+    width: 550px;
+}
+
+.nvcmewy23__submit:hover {
+    background-color: #b12f00;
+    color: rgb(235, 235, 235);
+}
+
+.nvcmewy23__submit_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 25px;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.sdg236_container {
+    background-color: rgb(254, 254, 254);
+}
+
+.sdg236 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 100;
+}
+
+.checkbox_input {
+    width: 25px;
+    height: 25px;
+}
+
+.checkbox_label {
+    font-size: 25px;
+}
+
+.checkbox_link {
+    color: #ff4400;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.checkbox_link:hover {
+    color: #b53000;
+}
+
+@media screen and (max-width: 767px) {
+    .ln326 {
+        height: 100%;
+        padding: 0;
+    }
+
+    .checkbox_label {
+        font-size: 16px;
+    }
+
+    .ln326_title {
+        font-size: 17px;
+        width: 90%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .ln326_container {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .sdg236 {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 0 0;
+        border-radius: 0;
+    }
+
+    .nvcmewy23__fieldset {
+        width: 90%;
+    }
+
+    .nvcmewy23__field {
+        border-radius: 5px;
+    }
+
+    .nvcmewy23__input {
+        width: 100%;
+        padding: 0 0 0 10px;
+        margin: 0;
+    }
+
+    .nvcmewy23__input::placeholder {
+        font-size: 20px;
+    }
+
+    .nvcmewy23__submit {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .nvcmewy23__submit_wrap {
+        flex-direction: column;
+        margin-bottom: 50px;
+        gap: 20px;
+        width: 90%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .ln326_container {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .ln326 {
+        height: 100%;
+        padding: 0;
+    }
+
+    .sdg236 {
+        margin: 0;
+        width: 100%;
+        padding: 20px 0;
+        border-radius: 0;
+    }
+
+    .nvcmewy23__fieldset {
+        width: 90%;
+    }
+
+    .nvcmewy23__submit {
+        width: 40%;
+    }
+
+    .nvcmewy23__submit_wrap {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .nvcmewy23__submit_wrap {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .sdg236 {
+        margin: 0;
+        width: 90%;
+    }
+}
